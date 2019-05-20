@@ -5,37 +5,31 @@ URL : https://di.tulis.online/
 USER :
 
 POST /users
-body = nrp & password
-
+•	body = nrp & password
 
 GET /users 
-return all users
-
+•	return all users
 
 GET /users/:userid 
-return user
-
+•	return user
 
 DELETE /users/:userid
-delete user
+•	delete user
 
 
 GATES :
 
 POST /gates
-body = nrp,role, jam_buka & jam_tutup
-
+•	body = nrp,role, jam_buka & jam_tutup
 
 GET /gates
-return all gates
-
+•	return all gates
 
 GET /gates/:gateid
-return gate
-
+•	return gate
 
 DELETE /gates/:gateid
-delete gate
+•	delete gate
 
 
 
@@ -48,9 +42,8 @@ GET /login
 GET /daftar
 
 GET /home
-Access protected page, login first
-
+•	Access protected page, login first
 
 
 POST /login
-body = gate, nrp, pass
+•	body = gate, nrp, pass
