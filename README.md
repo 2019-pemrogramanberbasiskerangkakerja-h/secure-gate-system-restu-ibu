@@ -7,11 +7,14 @@ USER :
 POST /users
 body = nrp & password
 
+
 GET /users 
 return all users
 
+
 GET /users/:userid 
 return user
+
 
 DELETE /users/:userid
 delete user
@@ -22,14 +25,18 @@ GATES :
 POST /gates
 body = nrp,role, jam_buka & jam_tutup
 
+
 GET /gates
 return all gates
+
 
 GET /gates/:gateid
 return gate
 
+
 DELETE /gates/:gateid
 delete gate
+
 
 
 VIEWS :
@@ -42,6 +49,7 @@ GET /daftar
 
 GET /home
 Access protected page, login first
+
 
 
 POST /login
