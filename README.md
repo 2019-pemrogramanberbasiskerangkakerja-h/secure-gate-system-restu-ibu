@@ -2,7 +2,7 @@ Secure Gate System - Restu Ibu with PouchDB Nodejs and Express
 
 URL : https://di.tulis.online/
 
-USER
+USER :
 
 POST /users
 body = nrp & password
@@ -17,7 +17,7 @@ DELETE /users/:userid
 delete user
 
 
-GATES
+GATES :
 
 POST /gates
 body = nrp,role, jam_buka & jam_tutup
@@ -32,7 +32,7 @@ DELETE /gates/:gateid
 delete gate
 
 
-VIEWS
+VIEWS :
 
 GET /addgates
 
