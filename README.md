@@ -37,13 +37,10 @@ VIEWS :
 
 GET /addgates
 
-GET /login
-
 GET /daftar
 
 GET /home
 •	Access protected page, login first
-
 
 POST /login
 •	body = gate, nrp, pass
