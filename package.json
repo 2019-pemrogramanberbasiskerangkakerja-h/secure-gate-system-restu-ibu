@@ -4,9 +4,9 @@
   "description": "PuchDB-Async for implementing offline first with Node.Js",
   "main": "index.js",
   "dependencies": {
-    "body-parser": "^1.19.0",
+    "body-parser": "^1.20.1",
     "cookie-parser": "^1.4.4",
-    "express": "^4.16.4",
+    "express": "^4.18.2",
     "express-session": "^1.16.1",
     "expressjs": "^1.0.1",
     "multer": "^1.4.1",
